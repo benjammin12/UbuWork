@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+  </head>
+  <body>
+
+    <style>
+        #imgs{
+        margin: 20px;
+        display: inline
+        }
+        .addPadd{
+          padding: 15px;
+          display:inline;
+        }
+    </style>
+
+
+<div id="imgs">
+  <img src="pics/SuperMarioWorld.png" alt="Mario" />
+  <div class="addPadd"></div>
+  <img src="pics/Chrono_Trigger_cover.jpg" alt="Chrono" height=200px width=300px />
+</div>
+
+    <script>
+      var roms = ["Super Mario World", "Chrono Trigger"];
+      roms.sort();
+
+      console.log(roms);
+
+    </script>
+
+  </body>
+</html>
